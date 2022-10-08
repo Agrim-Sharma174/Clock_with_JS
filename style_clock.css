@@ -1,46 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: url(wallbg.jpg) no-repeat;
-    background-size: cover;
-    background-position: 20px;
+body {
+  background: url(wallbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 20px;
 }
-#clockContainer{
-    position: relative;
-    margin: auto;
-    width:30vw;
-    height: 30vw;
-    background: url(clock.png) no-repeat;
-    background-size: 100%;
+#clockContainer {
+  position: relative;
+  margin: auto;
+  width: 30vw;
+  height: 30vw;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
 }
-#hour, #minute, #second{
-    position: absolute;
-    background: black;
-    border-radius: 5px;
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 5px;
 }
-#hour{
-    height: 16%;
-    width: 1%;
-    left: 49.5%;
-    top: 24%;
-    transform-origin: bottom;
+#hour {
+  height: 16%;
+  width: 1%;
+  left: 49.5%;
+  top: 24%;
+  transform-origin: bottom;
 }
-#minute{
-    height: 24%;
-    width: 0.9%;
-    left: 49.5%;
-    top: 16%;
-    opacity: 0.8;
-    transform-origin: bottom;
+#minute {
+  height: 24%;
+  width: 0.9%;
+  left: 49.5%;
+  top: 16%;
+  opacity: 0.8;
+  transform-origin: bottom;
 }
-#second{
-    height: 29%;
-    width: 0.8%;
-    background-color: red;
-    left: 49.6%;
-    top: 11%;
-    opacity: 0.8;
-    transform-origin: bottom;
+#second {
+  height: 29%;
+  width: 0.8%;
+  background-color: red;
+  left: 49.6%;
+  top: 11%;
+  opacity: 0.8;
+  transform-origin: bottom;
 }
